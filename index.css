@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    background-color: rgb(163, 161, 161); 
+    width: 20vw;
+}
+.sidebar nav{
+    padding: 72px;
+}
+
+.sidebar nav li{
+list-style-type: none;
+padding: 33PX 0;
+font-size: 30PX;
+}
+
+.main{
+    /* background-color: yellow;
+     */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.infoContainer{
+    /* background-color: rgb(157, 109, 13); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.devPic img{
+    width: 42.5vh;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hello{
+    font-size: 85px;
+}
+
+.moreabout{
+    font-size: 22px;
+}
+
+.about{
+    font-size: 40px;
+}
+ 
+.button{
+    margin: 34px;
+}
+
+.buttons button{
+padding: 9px 14px;
+border-radius: 22px;
+color: white;
+background-color: dodgerblue;
+font-weight: bold;
+font-size: 21px;
+margin: 31px 9px;
+cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.contactForm h1{
+    text-align: center;
+}
+
+.contactForm form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
