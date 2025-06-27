@@ -6,7 +6,8 @@
 
 .sidebar{
     background-color: rgb(163, 161, 161); 
-    width: 20vw;
+    transition: transform 0.3s ease-in;
+position: absolute;
 }
 .sidebar nav{
     padding: 72px;
@@ -90,9 +91,10 @@ cursor: pointer;
     color: black;
 }
 
-.contactform{
+.contactForm{
     padding: 0 34px;
     padding-top: 144px;
+    margin: 0 88px;
 }
 
 .contactForm h1{
@@ -154,6 +156,9 @@ cursor: pointer;
     margin: 20px;
 
 }
+.blogContainer{
+    margin: 0 88px;
+}
 
 .intro{
     margin: 12px;
@@ -172,8 +177,12 @@ cursor: pointer;
 }
 
 .skillContainer{
+    margin: 10px;
     padding: 12px;
     overflow: hidden;
+}
+.intro h2{
+    margin: 10px;
 }
 
 .hundred{
@@ -194,12 +203,38 @@ cursor: pointer;
         border: 1px solid black;
 
 }
-
-@media (max-width:1530px) {
-
-    .sidebar{
+.sidebarGo{
         transform: translate(-433px,0px );
         position: absolute;
     }
+
+
+@media (max-width:1530px) {
+
+    /* .sidebar{
+        transform: translate(-433px,0px );
+        position: absolute;
+    } */
+     .devPic img{
+        display: none;
+     }
     
+}
+
+.ham{
+    height: 105px;
+    padding: 35px;
+    margin-top: 10px;
+} 
+.cross{
+    height: 105px;
+    padding: 35px;
+    margin-top: 10px;
+}
+
+.hamburger{
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+    cursor: pointer;
 }
