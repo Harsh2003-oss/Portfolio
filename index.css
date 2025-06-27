@@ -96,10 +96,12 @@ cursor: pointer;
 }
 
 .contactForm h1{
+    margin: 5px;
     padding: 12px 0;
 }
 
 .contactForm form div{
+    margin: 3px;
     padding: 10px 0;
      display: flex;
     flex-direction: column; 
@@ -130,3 +132,74 @@ cursor: pointer;
     width: 24px;
     
 } 
+
+.btn{
+    max-width: 90px;
+    padding: 3px;
+    margin: 10px 0;
+}
+
+.btn{
+        border: 2px solid black;
+    border-radius: 25px;
+    background-color: dodgerblue;
+
+}
+.btn:hover{
+    background-color: white;
+    color:blue;
+}
+
+.blogItem{
+    margin: 20px;
+
+}
+
+.intro{
+    margin: 12px;
+}
+
+.skill{
+    width: 205px;
+    height: 6px;
+    background-color: red;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    
+}
+
+.skillContainer{
+    padding: 12px;
+    overflow: hidden;
+}
+
+.hundred{
+    width: 265px;
+    background-color: rgb(62, 13, 79);
+    border: 1px solid black;
+}
+
+.fifty{
+    width: 125px;
+    background-color: aqua;
+        border: 1px solid black;
+
+}
+
+.t5{
+    background-color: yellow;
+        border: 1px solid black;
+
+}
+
+@media (max-width:1530px) {
+
+    .sidebar{
+        transform: translate(-433px,0px );
+        position: absolute;
+    }
+    
+}
